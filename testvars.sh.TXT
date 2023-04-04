@@ -1,0 +1,22 @@
+#!/bin/bash
+
+echo "the person $PERSON is not good"
+
+
+if you want to use variables by *all users* declared it in  /etc/profile.
+
+if you want to access variables by *users* make declare it in .bashrc file in root user
+~
+~
+~
+Environment Variables Or Exporting Variables Permanently
+To export variables permanently , you can add the export command
+in any of the following start - up files :
+
+• ~ / .profile
+• ~ / .bashrc
+• / etc / profile
+
+profile and .bashrc lives in the users home directory so they are
+accessible only for that user./etc/profile is for global access for all the
+variables .
