@@ -4,7 +4,3 @@ open with cmd - crontab -e
 #MM HH DOM mm DOW COMMAND
 #30 20 * * 1-5 COMMAND
 * * * * * /opt/scripts/moniter.sh &>> /var/spool/mail/root
-~
-~
-~
-~
